@@ -1,0 +1,26 @@
+1000 500
+mars_sky.jpg
+ship.png ship_bottom.png ship_left.png ship_right.png ship_landed.png ship_crashed.png
+20 50
+500.0 400.0
+100
+thrust.wav yay.wav explosion.wav
+-0.1
+2.0
+0.5
+500 50
+# An easy game setup, you start directly above a large pad and have plenty of fuel.
+# Background image is from one of the NASA Mars rovers.
+#
+# Description of values:
+#  <width in pixels> <height in pixels> 1000 500
+#  <background image> mars_sky.jpg
+#  <normal ship image> <bottom thrusters> <left thrusters> <right thrusters> <ship landed> <ship crashed>ship.png ship_bottom.png ship_left.png ship_right.png ship_landed.png ship_crashed.png
+#  <horizontal distance, ship center to edge of thrusters> <vertical distance, ship center to bottom edge of thrusters> 20 50
+#  <ship starting x> <ship starting y> 500.0 400.0
+#  <starting fuel> 100
+#  <thruster sound> <good landing sound> <bad landing sound>
+#  <gravity term>-0.1
+#  <maximum survivable velocity> 2.0
+#  <thrust amount> 0.5
+#  <landing pad x center> <distance from center of landing pad to edge> 500 50
